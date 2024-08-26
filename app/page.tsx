@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
 
       <section className="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')] my-2">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white pt-14">Transform Your Media with Ease</h1>
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white pt-28">Transform Your Media with Ease</h1>
           <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">Effortlessly resize pictures and compress videos with Resizee. Optimize your media in just a few clicks.</p>
           <form className="w-full max-w-md mx-auto">
             <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Email sign-up</label>
@@ -38,7 +39,7 @@ export default function Home() {
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-white text-lg title-font font-medium mb-2">Seamless Social Media Compatibility</h2>
-              <p className="leading-relaxed text-base">Our platform ensures your images and videos are perfectly formatted for any social media platform, whether it's Instagram, Facebook, or YouTube. Say goodbye to awkward cropping and mismatched aspect ratios—your content will look stunning, no matter where you post.</p>
+              <p className="leading-relaxed text-base">Our platform ensures your images and videos are perfectly formatted for any social media platform, whether it&apos;s Instagram, Facebook, or YouTube. Say goodbye to awkward cropping and mismatched aspect ratios—your content will look stunning, no matter where you post.</p>
             </div>
           </div>
           <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
@@ -63,7 +64,7 @@ export default function Home() {
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-white text-lg title-font font-medium mb-2">User-Friendly Interface</h2>
-              <p className="leading-relaxed text-base">Designed with simplicity in mind, our intuitive interface allows you to format and compress your media in just a few clicks. Whether you're a social media novice or a seasoned creator, you'll find our tools easy to use, saving you time and effort.</p>
+              <p className="leading-relaxed text-base">Designed with simplicity in mind, our intuitive interface allows you to format and compress your media in just a few clicks. Whether you&apos;re a social media novice or a seasoned creator, you&apos;ll find our tools easy to use, saving you time and effort.</p>
             </div>
           </div>
         </div>
@@ -131,7 +132,7 @@ export default function Home() {
                 </svg>
                 <p className="leading-relaxed mb-6">Using this site has completely transformed how I manage my social media content. The aspect ratio formatting is spot-on, ensuring my photos always look their best on every platform. The video compression is also top-notch, saving me tons of storage without compromising quality. Highly recommend!</p>
                 <a className="inline-flex items-center">
-                  <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                  <Image alt="testimonial" src="https://dummyimage.com/106x106" width={106} height={106} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-white">Holden Caulfield</span>
                     <span className="text-gray-500 text-sm"> Digital Marketer</span>
@@ -146,7 +147,8 @@ export default function Home() {
                 </svg>
                 <p className="leading-relaxed mb-6">I love how easy this website is to use! In just a few clicks, I can format my images and compress videos without any hassle. The results are always impressive, and it saves me so much time. My social media game has definitely leveled up thanks to this tool.</p>
                 <a className="inline-flex items-center">
-                  <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                  <Image alt="testimonial" src="https://dummyimage.com/107x107" width={107}
+  height={107} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-white">Alper Kamu</span>
                     <span className="text-gray-500 text-sm">Content Creator</span>
@@ -161,7 +163,7 @@ export default function Home() {
       <section className="text-gray-400 bg-gray-900 body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-            <iframe width="100%" height="100%" title="map" className="absolute inset-0" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style={{
+            <iframe width="100%" height="100%" title="map" className="absolute inset-0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d8441.426922670122!2d94.9150637966447!3d27.181990257561946!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1724658885524!5m2!1sen!2sin" style={{
               filter: 'grayscale(1) contrast(1.2) opacity(0.16)',
             }}></iframe>
             <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
@@ -173,7 +175,7 @@ export default function Home() {
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
                 <a className="text-indigo-400 leading-relaxed">parthasarathiphukon@gmail.com</a>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
-                <p className="leading-relaxed">+91 6001562860</p>
+                <p className="leading-relaxed">+91 6001XXXXXX</p>
               </div>
             </div>
           </div>
