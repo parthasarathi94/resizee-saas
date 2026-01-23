@@ -5,3 +5,5 @@ export default function Page() {
     <SignUp />
     </div>
 }
+
+// New commit, clerk was not synced 
